@@ -3,7 +3,7 @@
 Для запуска
 
  - Запускаем терминал и вставляем следующую комманду: 
- "cookiecutter https://github.com/ArtemGalagura/templateProject.git"
+ "cookiecutter https://github.com/ArtemGalagura/templateCoordinatorProject.git"
  
 Далее в терминале нужно будет ввести информацию о проекте:
  
