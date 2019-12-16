@@ -1,5 +1,11 @@
 # templateProject
 
+Устанавливаем 
+```
+brew install cookiecutter
+brew install xcodegen
+```
+
 Для запуска
 
  - Запускаем терминал и вставляем следующую комманду: 
