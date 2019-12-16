@@ -1,0 +1,11 @@
+include:
+  - ./base.yml
+targets:
+  {{cookiecutter.projectName}}Dev:
+    templates:
+      - Core
+
+    settings:
+      INFOPLIST_FILE: App/Project/dev/Info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.{{cookiecutter.projectName}}Dev
+

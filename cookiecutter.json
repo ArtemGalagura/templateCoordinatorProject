@@ -1,0 +1,9 @@
+{
+  "projectName": "Example",
+  "projectDirectory": "{{cookiecutter.projectName|lower|replace(' ', '-')}}-ios",
+  "teamId": "123456",
+  "companyName": "Your company name",
+  "deploymentTarget": "10.0",
+  "runCocoaPods": "y",
+  "runXcodeGen": "y"
+}

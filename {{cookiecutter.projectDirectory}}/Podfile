@@ -1,0 +1,20 @@
+platform :ios, '11.0'
+use_frameworks!
+
+abstract_target 'App' do
+  use_frameworks!
+
+  pod 'SwiftLint'
+  pod 'Reveal-SDK', :configurations => ['Debug']
+  pod 'R.swift'
+  
+  target '{{cookiecutter.projectName}}' do
+  end
+  
+  target '{{cookiecutter.projectName}}Staging' do
+  end
+  
+  target '{{cookiecutter.projectName}}Dev' do
+  end
+  
+end
